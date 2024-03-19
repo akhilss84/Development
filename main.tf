@@ -1,11 +1,4 @@
-terraform {
-  backend "gcs" {
-    bucket = "terraform-state-jb-cicdproject-testing"
-    prefix = "development"
-  }
-}
-
-provider "google" {
+required_providers "google" {
   project = var.project
-  region  = var.region
+  region = var.region
 }
