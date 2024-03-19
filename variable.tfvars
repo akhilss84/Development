@@ -1,9 +1,3 @@
-locals {
-  labels = {
-    "data-project" = var.data-project
-  }
-}
-
 variable "project" {
   type        = string
   description = "active-valve-417311"
