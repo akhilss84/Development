@@ -6,8 +6,3 @@ terraform {
     }
   }
 }
-
-provider "google" {
-  project = "active-valve-417311"
-  region = "us-eas4"
-}
